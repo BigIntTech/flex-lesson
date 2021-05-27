@@ -1,0 +1,27 @@
+.image-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px){
+
+    .image-container{
+        width: 100%;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .img-cont{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        margin-right: 2rem;
+    }
+}

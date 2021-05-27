@@ -6,23 +6,23 @@
 }
 
 body {
-  background-color: rgb(31, 31, 34);
+  background-color: #A07855;
   color: #f4f4f4;
 }
 
 header {
-  background-color: rgb(44, 45, 48);
+  background-color: #9b704b;
 }
 
 .brand {
-  border-bottom: 1px solid rgb(71, 71, 71);
+  border-bottom: 1px solid #ffffff;
   margin-bottom: 10px;
 }
 
 .brand a,
 .nav-item a {
   padding: 10px 5px;
-  color: #f4f4f4;
+  color: #ffffff;
   display: block;
   text-decoration: none;
   transition: all 200ms ease-in;
@@ -42,7 +42,7 @@ header {
 }
 
 .jumbo {
-  background-color: rgb(71, 71, 71);
+  background-color: #D4B996;
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 20px;
@@ -67,7 +67,7 @@ header {
 }
 
 .about-box .status-cont {
-  background-color: rgb(5, 73, 151);
+  background-color: #D4B996;
   width: 100px;
   height: 100px;
   padding: 1rem;
@@ -91,6 +91,16 @@ header {
 .about-box .img-cont img {
   width: 100%;
   border-radius: 30px;
+}
+
+.text-sect{
+  display: block;
+  background-color: #D4B996;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 768px) {

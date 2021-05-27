@@ -1,0 +1,107 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sal-container{
+    display: block;
+    text-align: center;
+    background-color: #F2EDD7;
+    padding: 15px;
+    margin-bottom: 2rem;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.hey{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.mail-cont{
+    background-color: #783937;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+
+.number-cont{
+    background-color: #F1AC88;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.linkedIn-cont{
+    background-color: #A07855;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.instagram-cont{
+    background-color: #F1AC88;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.twitter-cont{
+    background-color: #A07855;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.mail-cont, 
+.number-cont,
+.linkedIn-cont,
+.instagram-cont,
+.twitter-cont{
+    transition: all 200ms ease-in;
+}
+
+.mail-cont:hover, 
+.number-cont:hover,
+.linkedIn-cont:hover,
+.instagram-cont:hover,
+.twitter-cont:hover{
+    background-color: #F2EDD7;
+}
+
+.text1, 
+.text2,
+.text3,
+.text4,
+.text5{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+.mail-cont, 
+.number-cont,
+.linkedIn-cont,
+.instagram-cont,
+.twitter-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 2rem;
+}
+}
